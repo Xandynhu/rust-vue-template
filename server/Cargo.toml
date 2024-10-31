@@ -1,0 +1,14 @@
+[package]
+name = "template-server"
+version = "0.1.0"
+edition = "2021"
+authors = ["Alexandre Crestani <alexandrecrestani@hotmail.com>"]
+description = "Template for a server application written in Rust"
+license = "MIT"
+
+[[bin]]
+name = "template-server"
+path = "src/main.rs"
+
+[dependencies]
+shared = { path = "../shared" }

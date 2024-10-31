@@ -1,0 +1,15 @@
+[package]
+name = "template-client"
+version = "0.1.0"
+edition = "2021"
+
+authors = ["Alexandre Crestani <alexandrecrestani@hotmail.com>"]
+description = "Template for a client application, written in Rust, that connects to a server"
+license = "MIT"
+
+[[bin]]
+name = "template-client"
+path = "src/main.rs"
+
+[dependencies]
+shared = { path = "../shared" }
