@@ -19,6 +19,4 @@ I'm planning to write this server with the following features:
 
 ## Vue3
 
-- **Start a development server**: `cd client-web && npm run serve`
-- **Build for production**: `cd client-web && npm run build`
-- **Lint and fix files**: `cd client-web && npm run lint`
+Vue3 project related [commands](./client-web/README.md)
