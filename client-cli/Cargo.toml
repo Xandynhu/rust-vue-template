@@ -1,5 +1,5 @@
 [package]
-name = "template-client"
+name = "client-cli"
 version = "0.1.0"
 edition = "2021"
 
@@ -8,7 +8,7 @@ description = "Template for a client application, written in Rust, that connects
 license = "MIT"
 
 [[bin]]
-name = "template-client"
+name = "client-cli"
 path = "src/main.rs"
 
 [dependencies]

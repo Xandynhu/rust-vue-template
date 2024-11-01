@@ -12,3 +12,13 @@ I'm planning to write this server with the following features:
 4. Possibility to use multiple databases (SQLite and PostgreSQL - starting with SQLite and adding PostgreSQL later)
 5. JWT Authentication
 6. Web UI built with Vue.js 3 and TypeScript
+
+
+
+# Useful Commands
+
+## Vue3
+
+- **Start a development server**: `cd client-web && npm run serve`
+- **Build for production**: `cd client-web && npm run build`
+- **Lint and fix files**: `cd client-web && npm run lint`

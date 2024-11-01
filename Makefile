@@ -1,5 +1,5 @@
 PROJECT_SERVER=template-server
-PROJECT_CLIENT=template-client
+PROJECT_CLIENT=client-cli
 
 default: build-debug
 

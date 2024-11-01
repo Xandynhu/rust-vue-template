@@ -2,7 +2,17 @@
     // Enable Material Icon Theme for these settings to take effect
     "workbench.iconTheme": "material-icon-theme",
 
-    // Custom icon themes
+    // Custom icon themes for folders
+    "material-icon-theme.folders.customClones": [
+        {
+            "name": "client-web",
+            "base": "client",
+            "color": "green-400",
+            "folderNames": []
+        }
+    ],
+
+    // Custom icon themes for files
     "material-icon-theme.files.customClones": [
         {
             "name": "rust-mod",
@@ -15,8 +25,11 @@
     // Custom icons for specific folders
     "material-icon-theme.folders.associations": {
         // CLI Tool
-        "cli-client": "client",
-        "cli-client/src": "client",
+        "client-cli": "client",
+        "client-cli/src": "client",
+
+        // Web UI
+        "client-web": "client-web",
 
         // Server
         "server": "server",
