@@ -11,5 +11,4 @@ I'm planning to write this server with the following features:
 3. Axum as the web framework
 4. Possibility to use multiple databases (SQLite and PostgreSQL - starting with SQLite and adding PostgreSQL later)
 5. JWT Authentication
-6. Web UI nased on the SPA (Single Page Application) concept
-7. Web UI will be written in another repository, and only built files will be placed here under /dist folder
+6. Web UI built with Vue.js 3 and TypeScript
